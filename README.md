@@ -25,6 +25,4 @@ Jums atidarys Dapp langą jūsų naršyklęje. Tuomet jums tereikia prisijungti 
 
 Norėdami lokaliai testuoti šią programą į terminalą rašykite: `truffle compile`
 
-Kai programa bus sėkmingai sukompiliuota rašykite: `truffle console`
-
 Tuomet pradėkite testą: `truffle test`
