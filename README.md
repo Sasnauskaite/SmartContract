@@ -14,3 +14,14 @@ Vėliau žingsnis po žingsnio viską atlikau sekdama [šį video](https://www.y
 
 Norėdami paleisti programą turite turėti aplanką savo kompiuteryje, atsidaryti jį naudodami cmd, pasileisti *GANACHE* įrankį ir tuomet atlikti šiuos veiksmus:
 1. Sukompiliuoti kontraktus naudojant komandą: `truffle compile`.
+2. Perkelti sutartis:
+   a. Naudojantis pirmą kartą: `truffle migrate`
+   b. Naudojantis visus kitus kartus: `truffle migrate --reset'
+3. Tuomet, pasileidus kitą terminalą, reikia paleisti serverį, tam, kad įsitikintume, jog svetainė veikia: `npm run start`
+Jums atidarys Dapp langą jūsų naršyklęje. Tuomet jums tereikia prisijungti prie MetaMask įrankio naršyklėje ir programa pradės veikti!
+   
+# Testai
+
+Norėdami lokaliai testuoti šią programą į terminalą rašykite: `truffle compile`
+Kai programa bus sėkmingai sukompiliuota rašykite: `truffle console`
+Tuomet pradėkite testą: `truffle test`
