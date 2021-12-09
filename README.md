@@ -9,3 +9,8 @@ Sukurta paprasta išmanioji sutartis, kuri veikia ,,on-line" įrankyje [REMIX ID
 Kadangi po daugelio nesėkmingų bandymų supratau, jog man vienai nepavyks visko gerai atlikti, dėl suvokimo stokos (man užduotis pasirodė per sunki arba aš jos gerai nesupratau) todėl dalį *smart contract* pasiėmiau iš [šio link'o](https://github.com/dappuniversity/defi_tutorial/releases/tag/starter-code).
 
 Vėliau žingsnis po žingsnio viską atlikau sekdama [šį video](https://www.youtube.com/watch?v=CgXQC4dbGUE).
+
+# Paleidimas
+
+Norėdami paleisti programą turite turėti aplanką savo kompiuteryje, atsidaryti jį naudodami cmd, pasileisti *GANACHE* įrankį ir tuomet atlikti šiuos veiksmus:
+1. Sukompiliuoti kontraktus naudojant komandą: `truffle compile`.
