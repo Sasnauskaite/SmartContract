@@ -18,7 +18,7 @@ Norėdami paleisti programą turite turėti aplanką savo kompiuteryje, atsidary
    
    a. Naudojantis pirmą kartą: `truffle migrate`
   
-   b. Naudojantis visus kitus kartus: `truffle migrate --reset'
+   b. Naudojantis visus kitus kartus: `truffle migrate --reset`
 3. Tuomet, pasileidus kitą terminalą, reikia paleisti serverį, tam, kad įsitikintume, jog svetainė veikia: `npm run start`
 
 Jums atidarys Dapp langą jūsų naršyklęje. Tuomet jums tereikia prisijungti prie MetaMask įrankio naršyklėje ir programa pradės veikti!
