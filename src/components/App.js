@@ -74,11 +74,9 @@ class App extends Component {
   
   stakeTokens = (amount) => {
     this.setState({ loading: true })
-    this.state.euroToken.methods.approve(this.state.tokenFarm._address, amount).send({ from: this.state.account }).on('transactionHash', (hash) => {
       this.state.tokenFarm.methods.stakeTokens(amount).send({ from: this.state.account }).on('transactionHash', (hash) => {
         this.setState({ loading: false })
       })
-    })
   }
   
   unstakeTokens=(amount) => {
