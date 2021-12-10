@@ -1,0 +1,26 @@
+/* Styles go here */
+body {
+    background-image: url(back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+th {
+    font-size: 120%;
+    color: white;
+}
+td {
+    color: white;
+    font-weight: bold;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+    margin-left: 80%;
+}
+p {
+    color: white;
+}
